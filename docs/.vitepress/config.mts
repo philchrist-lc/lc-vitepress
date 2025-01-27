@@ -9,7 +9,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
-      { text: 'Test Artikel', link: '/eigenes-lv-erstellen' },
+      { text: 'Eigenes LV erstellen', link: '/eigenes-lv-erstellen' },
+      { text: 'Bestellungen generieren', link: '/bestellungen-generieren' },
     ],
 
     sidebar: [
@@ -18,7 +19,8 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'Test Artikel', link: '/eigenes-lv-erstellen' }
+          { text: 'Test Artikel', link: '/eigenes-lv-erstellen' },
+          { text: 'Bestellungen generieren', link: '/bestellungen-generieren' },
         ]
       }
     ],
