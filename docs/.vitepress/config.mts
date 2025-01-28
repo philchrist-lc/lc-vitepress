@@ -2,8 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  homepage: 'https://philchrist-lc.github.io/lc-vitepress/',
-  base: '',
+  base: '/lc-vitepress/',
   title: "LC-TOP Help",
   description: "LC-TOP Handwerker Software",
   themeConfig: {
