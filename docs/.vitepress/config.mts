@@ -6,7 +6,6 @@ export default defineConfig({
   description: "LC-TOP Handwerker Software",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    base: '/vitepress/',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
